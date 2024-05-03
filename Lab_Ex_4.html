@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="dots-container">
+                <div class="dot red"></div>
+                <div class="dot orange"></div>
+                <div class="dot green"></div>
+            </div>
+            <div class="fullscreen-sign">&#8597;</div>
+        </div>
+    </header>
+    <div class="content-container">
+        <div class="contact-form-container">
+            <h2>Contact Form</h2>
+            <form class="fom" action="https://i.ibb.co/m4VqSvP/submitted-rectangular-stamp-textured-red-seal-text-white-background-vector-illustration-97813029.webp"
+                method="post">
+                <div class="form-group">
+                    <label>Your Name*</label>
+                    <div class="input-group">
+                        <input type="text" id="firstName" placeholder="First Name" required>
+                        <input type="text" id="lastName" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Your Email*</label>
+                    <input type="email" id="email" placeholder="e.g. hello@contact.net" required>
+                </div>
+                <div class="form-group">
+                    <label>Phone*</label>
+                    <div class="input-group">
+                        <input type="tel" id="phone1" placeholder="###" required>
+                        <input type="tel" id="phone2" placeholder="###" required>
+                        <input type="tel" id="phone3" placeholder="####" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Message Subject*</label>
+                    <select id="subject" required>
+                        <option value="">Select a Subject</option>
+                        <option value="Web Programming">Web Programming</option>
+                        <option value="Operating System">Operating System</option>
+                        <option value="Computer Networking">Computer Networking</option>
+                        <option value="AI">AI</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Message*</label>
+                    <textarea id="message" placeholder="Your message here" rows="3" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label>Verification*</label>
+                    <img id="captcha" src="Capture.JPG" width="250px" style="border-radius: 5px;">
+                </div>
+                <hr>
+                <button type="submit">SUBMIT FORM</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
